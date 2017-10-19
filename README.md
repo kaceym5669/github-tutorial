@@ -20,8 +20,9 @@ _by Kacey Manzueta_
 
 ---
 ## Repository Setup
-when you first set up a 
-
+to set up a repo (short for repository) you first have to set up a directory  
+by typing  `mkdir`<name> into the terminal 
+![](mkdir.png)
 
 ---
 ## Workflow & Commands
