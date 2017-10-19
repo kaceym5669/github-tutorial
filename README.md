@@ -21,7 +21,7 @@ _by Kacey Manzueta_
 ---
 ## Repository Setup
 to set up a repo (short for repository) you first have to set up a directory  
-by typing  `mkdir`<name> into the terminal 
+by typing  `mkdir`<name> into the terminal  
 ![](mkdir.png)
 
 ---
