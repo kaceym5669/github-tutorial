@@ -49,6 +49,7 @@ by typing  `mkdir <directory-name>` into the terminal. **make sure you are in** 
 
 ---
 ## Workflow & Commands
+---
 ###### General commands 
 ^ : the up arrow can be used as a shortcut to go to previous commands instead of rewriting the command again.  
   
@@ -77,7 +78,8 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 `rm` : removes folders. `rm <folder-name>`  
   
 `mv`: renames files. `mv <current-file-name> <new-name>`. Also you can move files. `mv <file-name> <destination>`.  
-  
+
+ ---
 ###### Important Commands 
 `git init` : initializes git in the current directory. **this only needs to be done one time**  
   
@@ -105,4 +107,4 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 ## Rolling Back Changes
 `git checkout -- <file>`: used to discard changes made in a working directory. You do not have to remember this after making changes to a directory, then use `git status` anf you will see it as a choice.  
   
-`git reset HEAD <file>`: used to unstage cha
+`git reset HEAD <file>`: used to unstage changes.
