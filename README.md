@@ -16,7 +16,7 @@ _by Kacey Manzueta_
 ## Initial Setup
 You will need to set up an SSH key before coding. An SSH allows you to connect to your remote repo without needing to sign into your account everytime you `git push`.  
 
-1. Go to github and look at the top-right click the profile icon and go into settings.
+1. Go to [github.com](github.com) and look at the top-right click the profile icon and go into settings.
 2. Look at the left-sidebar select SSH and GPG.
 3. now click new SSH key. Title it Cloud9.
 4. switch to cloud9 and click the gear icon on the top-right.
@@ -75,7 +75,7 @@ Control D (C ) : will interupts commands incase you type it in wrong.
   
 `rm -rf` : removes directories. `rm -rf <directory-name>`  
   
-`rm` : removes folders. `rm <folder-name>`  
+`rm` : removes folders. `rm <folder-name>` 
   
 `mv`: renames files. `mv <current-file-name> <new-name>`. Also you can move files. `mv <file-name> <destination>`.  
 
@@ -90,7 +90,7 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 `git add .`/`git add --all`: adds all the files that have been edited since the last commit to the "stage".  
 `git commit -m`: commits/takes a snap shot of your code. `git commit -m "commit message"` **make sure the commit message is in present tense**
 
-`git push`: pushes your commit to you remote repo, and when you refresh your remote repo you will see all your commits.
+`git push`: pushes your commit to your remote repo, and when you refresh your remote repo you will see all your commits.
 
   
 
@@ -108,3 +108,7 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 `git checkout -- <file>`: used to discard changes made in a working directory. You do not have to remember this after making changes to a directory, then use `git status` anf you will see it as a choice.  
   
 `git reset HEAD <file>`: used to unstage changes.
+
+`git reset --soft HEAD~1` or `git reset HEAD~1`: used to undo commits
+
+`git reset --hard HEAD~1`: used to undo push requests to the remote repo
