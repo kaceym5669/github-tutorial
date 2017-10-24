@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by Kacey Manzueta_
+_by KaceyManzueta_
 
 ---
 ## Git vs. GitHub
