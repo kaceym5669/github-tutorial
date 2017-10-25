@@ -105,8 +105,8 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 
 ---
 ## Rolling Back Changes
-`git checkout -- <file>`: used to discard changes made in a working directory. You do not have to remember this after making changes to a directory, then use `git status` anf you will see it as a choice.  
-  
+`git checkout -- <file>`: used to discard changes made in a working directory. You do not have to remember this after making changes to a directory, then use `git status` and you will see it as a choice.  
+  ![](rollback.png)  
 `git reset HEAD <file>`: used to unstage changes.
 
 `git reset --soft HEAD~1` or `git reset HEAD~1`: used to undo commits
