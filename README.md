@@ -125,8 +125,8 @@ Go to github and click your repo. Click setting and go all they way down till yo
 
 **Fork**
 
-A fork is a copy of a repository. Forking a repository allows you to make changes without affecting the original project, and push those changes to the forked remote repository.
-
+A fork is a copy of a repository. Forking a repository allows you to make changes without affecting the original project, and push those changes to the forked remote repository.  
+![](forknclone.png)  
 **Clone**
 
 When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. Make sure to clone the SSH url
