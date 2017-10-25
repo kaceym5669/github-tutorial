@@ -68,7 +68,7 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 `~` : helps you get back home. ex: `cd ~ ` .
   
 `ls` : it list out the files in the directory you are currently in.
-  
+![](Ls.png)
 `mkdir` : makes a directory. ex: `mkdir <directory-name>`
   
 `touch` : makes a folder in the directory you are currently in. ex: `touch <folder-name>`  
@@ -112,3 +112,25 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 `git reset --soft HEAD~1` or `git reset HEAD~1`: used to undo commits
 
 `git reset --hard HEAD~1`: used to undo push requests to the remote repo
+
+---
+## Error Handling
+* If you type git init in the wrong dicrtory and intialize git type rm -rf.git to unintialize git from the current direcctroy that you are in
+* If in any case you want to delete your repo(local and remote) 
+  * Go to your IDE and in your repo type in rm -rf.git and this will delete your local
+Go to github and click your repo. Click setting and go all they way down till you see Delete this Repository and go ahead and press delete and type the name of your repo. You have delted your remote.
+
+---
+## Collaboration
+
+**Fork**
+
+A fork is a copy of a repository. Forking a repository allows you to make changes without affecting the original project, and push those changes to the forked remote repository.
+
+**Clone**
+
+When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. Make sure to clone the SSH url
+
+**Pull Requests**
+
+Pull requests are made from people who have forked a repository and made changes to it. After changes are made a pull request is submitted and the owner chooses whether or not to add those changes.
