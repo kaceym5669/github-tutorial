@@ -68,7 +68,7 @@ Control D (C ) : will interupts commands incase you type it in wrong.
 `~` : helps you get back home. ex: `cd ~ ` .
   
 `ls` : it list out the files in the directory you are currently in.
-![](Ls.png)
+  
 `mkdir` : makes a directory. ex: `mkdir <directory-name>`
   
 `touch` : makes a folder in the directory you are currently in. ex: `touch <folder-name>`  
